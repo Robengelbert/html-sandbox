@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>My web page</title>
+		<!-- adding css -->
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!-- adding javascript -->
+		<script src="js/custom.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<!-- this is a header with an h1 that say's fruit -->
