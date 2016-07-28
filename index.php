@@ -9,53 +9,74 @@
 		<script src="js/custom.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<!-- this is a header with an h1 that say's fruit -->
-		<header>
-			<h1>Fruit</h1>
-		</header>
+		<div class="wrapper">
+		<!-- Header and navigation -->
+		<div class="header">
+			<h1>Robert Engelbert</h1>
+			<nav>
+				<span class="nav"><a>Home</a></span>
+				<span class="nav"><a>Portfolio</a></span>
+				<span class="nav"><a>Contact</a></span>
+			</nav>
+		</div>
 		<!-- start main content here -->
 		<main>
-		<p>I love applesI love applesI love apples<strong>I love apples</strong>I love applesI love applesI love applesI love applesI love applesI love applesvI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesvvI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love applesI love apples</p>
-			<!-- this is an image -->
-		<img src="images/fun.jpe" alt="People having fun."/>
-		<h2>Oranges</h2>
-		<p>Oranges are orange<em>Oranges are orange</em>Oranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangeOranges are orangevvvOranges are orangeOranges are orangeOranges are orangeOranges are orangevvOranges are orange</p>
-		<h3>Click your favorite fruit to choose your travel destination</h3>
-			<!-- this is navigation -->
-		<ul>
-			<li><a href="http://www.experiencewa.com/" target="_blank">Apples</a></li>
-			<li><a href="http://www.visitflorida.com/en-us.html/" target="_blank">Oranges</a></li>
-			<li><a href="http://www.travelwisconsin.com/" target="_blank">Cherries</a></li>
-			<li><a href="http://www.visitmexico.com/" target="_blank">Bananas</a></li>
-		</ul>
-		<a href="https://bootcamp-coders.cnm.edu/" target="_blank">Click me</a>
-			<!-- this is a div-->
-		<div class="wrapper">
-			<p>I can use this div as a wrapper to style it and stuff</p>
-		</div>
-		<table>
-			<tr>
-				<th>
-					cell 1
-				</th>
-				<th>
-					cell 2
-				</th>
-			</tr>
-			<tr>
-				<td>
-					cell 3
-				</td>
-				<td>
-					cell 4
-				</td>
-			</tr>
-		</table>
+			<div class="about">
+		<p>I'm a web developer, software developer and life long learner.</p>
+			<p>Please feel free to contact me for collaboration opportunities.</p>
+			</div>
+		<p class="about">
+			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+			101010101010101111111111111111111110101010101111111111111111111111111111111110100000000001010101010101000000000010101
+			101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
+			101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
+			</p>
+			<h2>Contact</h2>
+			<form>
+				<ul class="flex-outer">
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Enter your name" />
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" placeholder="Enter your email" />
+					</li>
+					<li>
+						<label for="phone">Phone</label>
+						<input type="tel" id="phone" placeholder="Enter your number" />
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea rows="6" id="message" placeholder="Enter you message"></textarea>
+					</li>
+					<li>
+						<button type="button">Submit</button>
+					</li>
+				</ul>
+			</form>
+		
+		
 		</main>
 		<!-- End of main content -->
 		<!-- copyright information -->
 		<footer>
 			&copy; 2016 rengelbert
 		</footer>
+		</div>
 	</body>
 </html>

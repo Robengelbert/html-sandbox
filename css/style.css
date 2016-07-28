@@ -1,6 +1,71 @@
+html{
+	box-sizing: border-box;
+}
+html,
+body,
+.wrapper{
+	height:100%;
+}
 body{
-	background:blue;
+	overflow: hidden;
+	font-family:"Comic Sans MS";
 }
 h1{
-	color:orange;
+	color:darkgray;
+}
+footer{
+	display: flex;
+	width:100%;
+	background-color: #eee;
+}
+.flex-outer, li{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.flex-outer > li > label,
+.flex-outer li p{
+	flex: 1 0 120px;
+	max-width: 220px;
+}
+.flex-outer li button{
+	margin-left:auto;
+	padding: 8px 16px;
+	border:none;
+	background: #333;
+	color:#f2f2f2;
+	text-transform:uppercase;
+	letter-spacing: .09em;
+	border-radius: 2px;
+}
+.header{
+	display: flex;
+	align-items: center;
+	width:100%;
+	padding:20px;
+	background-color:#eee;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	padding-left: 10px;
+	font-size: large;
+}
+.about{
+	text-align: center;
+	font-size: larger;
+}
+
+
+@media (max-width:650px) {
+
+	.header{
+		flex-wrap: wrap;
+	}
+	h1{
+		width: 100%;
+		margin:15px;
+	}
 }
