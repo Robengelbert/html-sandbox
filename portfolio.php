@@ -25,6 +25,7 @@
 						</div>
 					</div>
 				</div>
+			
 		</header>
 		<!-- begin main content -->
 		<main>
