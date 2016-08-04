@@ -1,69 +1,82 @@
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-		
-		<link href="css/main.css" rel="stylesheet" type="text/css" />
-
-		<!-- jQuery first, then Bootstrap JS. -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<title>My bootstrap page</title>
+		<meta charset="utf-8"/>
+		<title>My web page</title>
+		<!-- adding css -->
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<!-- adding javascript -->
+		<script src="js/custom.js" type="text/javascript"></script>
 	</head>
-	<body class="sfooter">
-		<div class="sfooter-content">
-		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						</div>
-					</div>
-				</div>
-			
-		</header>
-		<!-- begin main content -->
-		<main>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						side panel
-					</div>
-					<div class="col-md-9">
-						content area
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						column 1
-					</div>
-					<div class="col-md-4">
-						column 2
-					</div>
-					<div class="col-md-4">
-						column 3
-					</div>
-				</div>
+	<body>
+		<div class="wrapper">
+			<!-- Header and navigation -->
+			<div class="header">
+				<h1>Robert Engelbert</h1>
+				<nav>
+					<span class="nav"><a>Home</a></span>
+					<span class="nav"><a>Portfolio</a></span>
+					<span class="nav"><a>Contact</a></span>
+				</nav>
 			</div>
-		</main>
+			<!-- start main content here -->
+			<main>
+				<div class="about">
+					<p>I'm a web developer, software developer and life long learner.</p>
+					<p>Please feel free to contact me for collaboration opportunities.</p>
+				</div>
+				<p class="about">
+					000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+					101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+					111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+					000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+					101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+					111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+					000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+					101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+					111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+					000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+					101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+					111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+					000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
+					101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
+					111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
+					101010101010101111111111111111111110101010101111111111111111111111111111111110100000000001010101010101000000000010101
+					101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
+					101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
+				</p>
+				<h2>Contact</h2>
+				<form>
+					<ul class="flex-outer">
+						<li>
+							<label for="name">Name</label>
+							<input type="text" id="name" placeholder="Enter your name" />
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="email" id="email" placeholder="Enter your email" />
+						</li>
+						<li>
+							<label for="phone">Phone</label>
+							<input type="tel" id="phone" placeholder="Enter your number" />
+						</li>
+						<li>
+							<label for="message">Message</label>
+							<textarea rows="6" id="message" placeholder="Enter you message"></textarea>
+						</li>
+						<li>
+							<button type="button">Submit</button>
+						</li>
+					</ul>
+				</form>
+
+
+			</main>
+			<!-- End of main content -->
+			<!-- copyright information -->
+			<footer>
+				&copy; 2016 rengelbert
+			</footer>
 		</div>
-		<!-- begin footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						footer column one
-					</div>
-					<div class="col-md-6">
-						footer column two
-					</div>
-				</div>
-			</div>
-		</footer>
 	</body>
 </html>
