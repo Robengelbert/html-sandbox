@@ -1,82 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+	<html lang="en">
 	<head>
-		<meta charset="utf-8"/>
-		<title>My web page</title>
-		<!-- adding css -->
-		<link href="css/style.css" rel="stylesheet" type="text/css"/>
-		<!-- adding javascript -->
-		<script src="js/custom.js" type="text/javascript"></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+		<!-- custom css -->
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		<!-- JavaScript and JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<title>Bootstrap</title>
 	</head>
-	<body>
-		<div class="wrapper">
-		<!-- Header and navigation -->
-		<div class="header">
-			<h1>Robert Engelbert</h1>
-			<nav>
-				<span class="nav"><a>Home</a></span>
-				<span class="nav"><a>Portfolio</a></span>
-				<span class="nav"><a>Contact</a></span>
-			</nav>
-		</div>
-		<!-- start main content here -->
-		<main>
-			<div class="about">
-		<p>I'm a web developer, software developer and life long learner.</p>
-			<p>Please feel free to contact me for collaboration opportunities.</p>
+	<body class="sfooter">
+		<header>
+			<div class="sfooter-content">
+			<div class="container-fluid">
+				<div class="row">
+					<nav class="navbar navbar-light bg-faded pull-right">
+						<a class="navbar-brand" href="#">Navbar</a>
+						<ul class="nav navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Features</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Pricing</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-		<p class="about">
-			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
-			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
-			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
-			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
-			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
-			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
-			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
-			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
-			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
-			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
-			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
-			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
-			000000000000000011111111110101010101010101010111111111111111111111110000010101010101010000000000000000000000001010101
-			101010101010101010101000000000001011111111111110101010101111111111111111010101010111111111110101010101010101010101010
-			111111111110000000001010101010101011111111111111111111110101111111111111111110100000000000000101011010111111111111110
-			101010101010101111111111111111111110101010101111111111111111111111111111111110100000000001010101010101000000000010101
-			101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
-			101010101010111110100100001010101010100000101010100101010101010101010101010101010101010101010101111111111000000110101
-			</p>
-			<h2>Contact</h2>
-			<form>
-				<ul class="flex-outer">
-					<li>
-						<label for="name">Name</label>
-						<input type="text" id="name" placeholder="Enter your name" />
-					</li>
-					<li>
-						<label for="email">Email</label>
-						<input type="email" id="email" placeholder="Enter your email" />
-					</li>
-					<li>
-						<label for="phone">Phone</label>
-						<input type="tel" id="phone" placeholder="Enter your number" />
-					</li>
-					<li>
-						<label for="message">Message</label>
-						<textarea rows="6" id="message" placeholder="Enter you message"></textarea>
-					</li>
-					<li>
-						<button type="button">Submit</button>
-					</li>
-				</ul>
-			</form>
-		
-		
-		</main>
-		<!-- End of main content -->
-		<!-- copyright information -->
-		<footer>
-			&copy; 2016 rengelbert
-		</footer>
+		</header>
+		<img src="images/smoke.jpg" alt="smoke" />
 		</div>
+		<footer>
+
+		</footer>
 	</body>
 </html>

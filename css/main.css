@@ -1,15 +1,3 @@
-header{
-	background-color: lightblue;
-}
-footer {
-	background-color: black;
-	color: white;
-}
-.col-md-4{
-	background-color: chartreuse;
-	border: solid 5px black;
-	height:20rem;
-}
 
 /***
 * Flexbox Sticky Footer
