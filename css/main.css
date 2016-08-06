@@ -1,4 +1,15 @@
-
+header{
+	background-color: yellow;
+}
+img{
+	border:solid 5px black;
+}
+footer{
+	background-color: yellow;
+}
+.space{
+	background-color: yellow;
+}
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/

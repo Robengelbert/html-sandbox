@@ -15,8 +15,8 @@
 		<title>Bootstrap</title>
 	</head>
 	<body class="sfooter">
+		<div class="sfooter-content">
 		<header>
-			<div class="sfooter-content">
 			<div class="container-fluid">
 				<div class="row">
 					<nav class="navbar navbar-light bg-faded pull-right">
@@ -39,10 +39,36 @@
 				</div>
 			</div>
 		</header>
-		<img src="images/smoke.jpg" alt="smoke" />
+		<div class="container-fluid">
+			<div class="row">
+				<img src="images/smoke.jpg" alt="smoke" />
+			</div>
+			<div class="row space">
+				<div class="col-md-2">
+				<img src="images/fun.jpe" alt="Fake images having fun" />
+				</div>
+				<div class="col-md-8">
+					<img src="images/smoke.jpg" alt="smoke" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<img src="images/fun.jpe" alt="Fake images having fun" />
+				</div>
+				<div class="col-md-3">
+					<img src="images/fun.jpe" alt="Fake images having fun" />
+				</div>
+				<div class="col-md-3">
+					<img src="images/fun.jpe" alt="Fake images having fun" />
+				</div>
+				<div class="col-md-3">
+					<img src="images/fun.jpe" alt="Fake images having fun" />
+				</div>
+			</div>
+		</div>
 		</div>
 		<footer>
-
+			&copy 2016 rob@robertengelbert.com 
 		</footer>
 	</body>
 </html>
