@@ -25,19 +25,19 @@
 						</button>
 					</div>
 					<nav class="navbar navbar-light bg-faded pull-right collapse navbar-collapse" id="mainNavBar">
-						<a class="navbar-brand pull-left" href="#">Gimme yo money</a>
+						<a class="navbar-brand left" href="#">Gimme yo money</a>
 						<ul class="nav navbar-nav">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link left" href="#">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Features</a>
+								<a class="nav-link left" href="#">Features</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Pricing</a>
+								<a class="nav-link left" href="#">Pricing</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">About</a>
+								<a class="nav-link left" href="#">About</a>
 							</li>
 						</ul>
 					</nav>

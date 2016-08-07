@@ -1,14 +1,17 @@
 header{
-	background-color: greenyellow;
+	background-color: #00A10D;
 }
 img{
 	border:solid 5px black;
 }
 footer{
-	background-color: greenyellow;
+	background-color: #00A10D;
+	text-align:center;
+	color:white;
+	height:50px;
 }
 .space{
-	background-color: greenyellow;
+	background-color: #00A10D;
 }
 .one{
 	border:solid 5px black;
@@ -32,7 +35,10 @@ footer{
 .resize{
 	width:70%;
 	height:auto;
-	margin:15px 0 15px 150px;
+	margin:15px 50px 15px 50px;
+}
+.left{
+	color:white;
 }
 /***
 * Flexbox Sticky Footer
@@ -59,12 +65,18 @@ body { width: 100%;}
 	.resize{
 		width:70%;
 		height:auto;
-		margin:15px 0 15px 85px;
+		margin:50px 0 15px 85px;
 	}
 	.two{
 		border:solid 5px black;
 		margin:15px 0 15px 85px;
 		padding:100px 5px;
 		background-color: white;
+	}
+	.left{
+		padding-right:1000px;
+	}
+	footer{
+		height:125px;
 	}
 }
