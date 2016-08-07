@@ -51,26 +51,26 @@
 			</div>
 			<div class="row space">
 				<div class="col-md-2">
-				<img src="images/fun.jpe" alt="Fake images having fun" />
+				<img class="resize" src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
 				<div class="col-md-8 two">
 					
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 offset-md-3 three">
+				<div class="col-md-3 three">
 					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3 offset-md-3 three">
+				<div class="col-md-3  three">
 					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3 offset-md-3 three">
+				<div class="col-md-3 three">
 					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3 offset-md-3 three">
+				<div class="col-md-3 three">
 					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>

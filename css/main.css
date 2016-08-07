@@ -17,12 +17,22 @@ footer{
 }
 .two{
 	border:solid 5px black;
-	height: 125px;
-	margin:15px 30px 15px 30px;
+	margin:15px 50px 15px 50px;
+	padding:100px 5px;
 	background-color: white;
+	position:center;
 }
 .three{
-	padding:15px;
+	margin-right:0;
+	padding:30px 0 30px 65px;
+}
+.what{
+	border:solid 5px black;
+}
+.resize{
+	width:70%;
+	height:auto;
+	margin:15px 0 15px 150px;
 }
 /***
 * Flexbox Sticky Footer
@@ -42,8 +52,19 @@ body { width: 100%;}
 .sfooter-content {
 	flex: 1 0 auto;
 }
-@media(max-width: 768px){
+@media(min-width: 768px){
 	.one{
 		margin:30px 20px 30px 125px;
+	}
+	.resize{
+		width:70%;
+		height:auto;
+		margin:15px 0 15px 85px;
+	}
+	.two{
+		border:solid 5px black;
+		margin:15px 0 15px 85px;
+		padding:100px 5px;
+		background-color: white;
 	}
 }
