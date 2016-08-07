@@ -1,14 +1,28 @@
 header{
-	background-color: yellow;
+	background-color: greenyellow;
 }
 img{
 	border:solid 5px black;
 }
 footer{
-	background-color: yellow;
+	background-color: greenyellow;
 }
 .space{
-	background-color: yellow;
+	background-color: greenyellow;
+}
+.one{
+	border:solid 5px black;
+	height:150px;
+	text-align:center;
+}
+.two{
+	border:solid 5px black;
+	height: 125px;
+	margin:15px 30px 15px 30px;
+	background-color: white;
+}
+.three{
+	padding:15px;
 }
 /***
 * Flexbox Sticky Footer
@@ -27,4 +41,9 @@ body { width: 100%;}
 
 .sfooter-content {
 	flex: 1 0 auto;
+}
+@media(max-width: 768px){
+	.one{
+		margin:30px 20px 30px 125px;
+	}
 }

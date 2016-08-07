@@ -19,8 +19,13 @@
 		<header>
 			<div class="container-fluid">
 				<div class="row">
-					<nav class="navbar navbar-light bg-faded pull-right">
-						<a class="navbar-brand" href="#">Navbar</a>
+					<div  class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+							<span class="glyphicon glyphicon-menu-hamburger"></span>
+						</button>
+					</div>
+					<nav class="navbar navbar-light bg-faded pull-right collapse navbar-collapse" id="mainNavBar">
+						<a class="navbar-brand pull-left" href="#">Gimme yo money</a>
 						<ul class="nav navbar-nav">
 							<li class="nav-item active">
 								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -40,28 +45,33 @@
 			</div>
 		</header>
 		<div class="container-fluid">
-			<div class="row">
-				<img src="images/smoke.jpg" alt="smoke" />
+			<div class="row m-t-4">
+				<div class="col-md-10 one">
+				</div>
 			</div>
 			<div class="row space">
 				<div class="col-md-2">
 				<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-8">
-					<img src="images/smoke.jpg" alt="smoke" />
+				<div class="col-md-8 two">
+					
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 offset-md-3 three">
+					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 offset-md-3 three">
+					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 offset-md-3 three">
+					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 offset-md-3 three">
+					<img src="images/fun.jpe" alt="Fake images having fun" class="img-circle" />
 					<img src="images/fun.jpe" alt="Fake images having fun" />
 				</div>
 			</div>
