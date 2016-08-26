@@ -1,5 +1,5 @@
 
-app.controller("todoCtrl",["$scope", function($scope){$scope.todoList =[{todoText:"Clean house", done:false}];
+app.controller("todoCtrl",["$scope", function($scope){$scope.todoList =[];
 
 	$scope.todoAdd = function(){
 
