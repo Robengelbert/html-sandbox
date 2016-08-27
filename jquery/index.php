@@ -8,28 +8,9 @@
 		<title>JQuery practice</title>
 	</head>
 	<body>
-		<h1>JQuery test site</h1>
-		<p>Scroll happened!</p>
-		<div class="dummy-content">scrool the viewport.</div>
-		<div class="dummy-content">scrool the viewport.</div>
-		<div class="dummy-content">scrool the viewport.</div>
-		<div class="dummy-content">scrool the viewport.</div>
-		<div class="dummy-content">scrool the viewport.</div>
+<button type="button" class="toggle-btn">Toggle</button>
+		<button type="button" class="show-btn">Show paragraphs</button>
+		<p class="very-fast">this is paragraph 1</p>
 
-		<form>
-					<input type="text" id="inputMobile" maxlength="10" placeholder="Enter a mobile number">
-
-					<input type="submit" value="submit">
-			<p></p>
-					<button type="button">replace text</button>
-
-		</form>
-
-		<p>ygvfkhhhhhhhhhhhhhhhhhhhhhhhhhh
-			klfjgl;kjgijlgkjslkjsldkjglkjfkgmklsjgkjklsjdkljsdkljds
-			klfglkasjglaksj;lkjfkl;asjdklsjd;js;jlksjflskjlksdjfklsdjlsjdslkldkfjslkdjfklsj
-			l;djfksdj;klsadjklsdj;lsjdlk;sdjlkjdlkjfsldjklsdjfklsdjfksjfklsjf;lksjl;jewoijkldsjgigj mdkl egniodfijiewdjfkjfklajfislkdjfskldfmweljflkd
-			lkjdsf;lkdfjklhefjdsnkjfajkldfjkelsdnfl;kdfjklej
-		</p>
 	</body>
 </html>

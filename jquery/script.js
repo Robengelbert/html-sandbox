@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$(window).scroll(function(){
-		$("p").show().fadeOut("slow");
+	$(".toggle-btn").click(function(){
+		$("p").toggle(1000, function(){
+			alert("toggle");
+		});
 	});
 });
