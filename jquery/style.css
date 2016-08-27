@@ -1,9 +1,15 @@
-p.highlight{
-	background-color:orange;
+p{
+	width: 100%;
+	padding:50px 0;
+	text-align:center;
+	font: bold 34px sans-serif;
+	background-color: #f0e68c;
+	position: fixed;
+	top: 50px;
+	display: none;
 }
-.error{
-	color:red;
-}
-.success{
-	color:green;
+.dummy-content{
+	height: 600px;
+	font: 34px sans-serif;
+	text-align: center;
 }
