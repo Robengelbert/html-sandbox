@@ -8,10 +8,8 @@
 		<title>JQuery practice</title>
 	</head>
 	<body>
-<button type="button" class="up-btn">slide up</button>
-		<button type="button" class="down-btn">slide down</button>
-		<p>this is paragraph 1</p>
-		<p>this is paragraph 2</p>
-
+		<p>Hello World!</p>
+		<button type="button" class="start">start</button>
+		<button type="button" class="reset">reset</button>
 	</body>
 </html>

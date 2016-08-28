@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	$(".up-btn").click(function() {
-		$("p").slideUp();
+	$(".start").click(function() {
+		$("p").animate({width: "100%"}).animate({fontSize: "46px"}).animate({borderWidth: 30});
 	});
-	$(".down-btn").click(function(){
-		$("p").slideDown();
-	})
+	$(".reset").click(function(){
+		$("p").removeAttr("style");
+	});
 
 });

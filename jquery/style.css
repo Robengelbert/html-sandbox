@@ -1,5 +1,10 @@
 p{
-	padding: 15px;
-	background-color: #dda0dd;
+	width: 200px;
+	padding:40px;
+	font: bold 24px sans-serif;
+	text-align: center;
+	background: #aaccaa;
+	border: 1px solid #63a063;
+	box-sizing: border-box;
 }
 
