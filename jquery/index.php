@@ -8,9 +8,10 @@
 		<title>JQuery practice</title>
 	</head>
 	<body>
-<button type="button" class="toggle-btn">Toggle</button>
-		<button type="button" class="show-btn">Show paragraphs</button>
-		<p class="very-fast">this is paragraph 1</p>
+<button type="button" class="up-btn">slide up</button>
+		<button type="button" class="down-btn">slide down</button>
+		<p>this is paragraph 1</p>
+		<p>this is paragraph 2</p>
 
 	</body>
 </html>

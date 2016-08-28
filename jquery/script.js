@@ -1,7 +1,9 @@
-$(document).ready(function(){
-	$(".toggle-btn").click(function(){
-		$("p").toggle(1000, function(){
-			alert("toggle");
-		});
+$(document).ready(function() {
+	$(".up-btn").click(function() {
+		$("p").slideUp();
 	});
+	$(".down-btn").click(function(){
+		$("p").slideDown();
+	})
+
 });
